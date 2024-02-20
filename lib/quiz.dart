@@ -11,6 +11,13 @@ class _QuizState extends State<Quiz> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      body: Column(
+        children: [
+          Text('Google was originally called "Backrub" ',
+      style: TextStyle(
+        color: Colors.white))
+        ],
+      ),
       backgroundColor: Colors.black87,
     );
   }
