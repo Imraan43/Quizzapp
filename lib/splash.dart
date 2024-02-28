@@ -16,7 +16,7 @@ class _SplashState extends State<Splash> {
     // TODO: implement initState
     super.initState();
     print('babu');
-    Timer(Duration(seconds: 7), () {
+    Timer(Duration(seconds: 3), () {
       Navigator.push(context,MaterialPageRoute(builder: (context)=>Quiz()));
     });
   }
